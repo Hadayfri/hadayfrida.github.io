@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, main, footer{
+    background-color:beige;
+    color:lemonchiffon;
+    width: 100% 1280px;
+    margin left: auto;
+    margin-right: auto;
+    padding: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+header{
+    height: auto;
+    font-family: "Young Serif", serif;
+    color: deeppink;
+    font-size: 60px;
+}
+nav{
+    background-color:palevioletred;
+    text-align: center;
+    color:aqua;
+} 
+#tabla_0{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px; 
+    border-spacing: 10px; 
+    border: 1px, solid white; 
+} 
+#tabla_0 th, #tabla_0 td{ 
+    border: 1px solid black; 
+}
+
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    background-color: lightpink;
+    width: 10%;
+    min-width: 100px;
+    padding: 20px<px;
+    text-align: center;
+    border-radius: 30px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color:white;
+}
+nav ul il:hover{
+    background-color:white;
+    font-family: "Montserrat", sans-serif;
+    
+}
+section{
+        background-color:pink;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 30px;
+        color: white;
+        overflow-x: auto;
+        width: 80%;
+}
+h2{
+    margin-bottom: 30px;
+      font-family: "Young Serif", serif;
+        font-size: 46px;
+    color: aliceblue;
+    
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+    text-align: center;
+    height: 20px;
+    background-color: azure;
+    font-size: 18px
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+}
+#tabla_1{
+        background-color: lightpink;
+        border: 3px solid red;
+        border-spacing: 10px;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+}
+#tabla_1 th{
+    font-size: 23px;
+    background-color: palevioletred;
+    color: white;
+}
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid purple;
+    padding: 10px;
+}
+#tabla_cebras{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#tabla_cebras th{
+    background-color: crimson;
+    
+} 
+#tabla_cebra td, #tabla_cebra th{ 
+    padding: 10px; 
+    border-width: 5px; 
+    border-color: #219ebc; 
+    border-style: solid; 
+}
+#tabla_cebras tbody tr: nth-child(even){
+    background-color: bisque;
+}
+#tabla_cebras tbody tr: nth-child(odd){
+    background-color: coral;
+}
+#tabla hover{
+    
+    width: 7o%;
+    background-color: crimson
+    color:pink;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+} 
+#tabla_hover th{ 
+    background-color: aquamarine; 
+    color: cadetblue; 
+} 
+#tabla_hover tr:hover{ 
+    background-color: #ffb703; 
+    color: #023047; 
+} 
+#tabla_hover td, #tabla_hover th{ 
+    border-width: 2px; 
+    border-color: blanchedalmond; 
+    border-style: solid; 
+    padding: 20px; 
+}
+img{
+    width: 100%;
+    margin-top: 30px;
+}
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.img-border-redondo{
+    border-radius: 50%;
+}
+p{
+    margin-top: 20px;
+}   
+.img_flotante{
+    width:300px;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+
+.alineacion{
+    float: right;
+}
+#fondo_box{
+    background-image: url("espacio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.img_filter {
+    text-align: center;
+}
+.img_filter p, img_filter h2{
+    text-align: justify;
+}
+.img_filter img{
+    width: 20%;
+    margin: 20px;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+label{
+    color: bisque;
+    font-weight: bold;
+    font-size: 18px;
+}
+input,textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: cornsilk;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: bisque;
+    font-weight: bold;
+    color: palevioletred;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+input[type=text]:focus,input[type=password]:focus, input[type-email]:focus,textarea:focus; select:focus{
+    background-color: cornsilk;
+    color: coral;
+}
+
+input[type-radio], input[type-checkbox]{
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Imagenes</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style type="text/css">
+            #filtro-gray{
+                filter: grayscale(100%);
+            }
+            #filtro-sepia{
+                filter: sepia(100%);
+            }
+            #filtro-brillo{
+                filter: brightness(150%);
+            }
+            #filtro-contraste{
+                filter: contrast(120%);
+            }
+            #filtro-blur{
+                filter: blur(3px);
+            }
+            #filtro-inverso{
+                filter: invert(100%);
+            }
+            #filtro-saturacion{
+                filter: saturate(150%);
+            }
+            #filtro-opacidad{
+                filter: opacity(70%);
+            }
+            #filtro-sombra{
+                filter: drop-shadow(8px 8px 10px gray);
+            }
+            #filtro-huerotate{
+                filter: hue-rotate(-270deg);
+            }
+            .filtros{
+                filter: grayscale(100%)
+                    drop-shadow(8px 8px 10px red);
+            }
+            #enlace-img{
+                width: 70px;
+                height: auto;
+            }            
+             ul li{                 
+                width: 90px;
+                background-color: deeppink;
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px;
+                text-align: center;
+                text-decoration-color: hotpink;
+                margin-left:20px;
+                margin-right: 10px;
+                min-width: 200px;
+                border-radius: 50px;
+                font-size: 30px;
+                color: aliceblue;
+             } 
+            p{
+                font-size: 35px;
+            }
+            footer{
+                font-size: 30px;
+                color: white;
+                background-color: palevioletred;
+            }
+            header{
+                color: palevioletred;
+            }
+            
+            footer a{
+                margin-left: 10px;
+                float: right; -10px;
+                margin-right: 10 px;
+                width: 80px;
+            }
+        </style>
+        
+     </head>
+    <body>
+        <header>
+            <h1>IMAGEN</h1>
+            
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="mi_primera_pagina.html">Formatos</a></li>
+                <li> <a href="Listas.html">Listas</a></li>
+                <li> <a href="Enlaces.html">Enlaces</a></li>
+                <li> <a href="tablas.html">Tablas</a></li>
+                <li> <a href="imagenes.html">Imagenes</a></li>
+                <li> <a href="Audio.html">Audio</a></li>
+                <li> <a href="video.html">Video</a></li>
+                <li> <a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2> Imagen </h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <img src="espacio.png" alt="espacio" type="imagen/jgp">
+            </section>
+            <section>
+                <h2>Imagen GIF Animada</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img class="img-border-redondo"
+                src="giphy.gif" alt="espacio animado" type="imagen/gif">
+                
+            </section>
+            <section>
+                <h2>Imagen Flotante</h2>
+                <p><img  class="img_flotante alineacion" src="astronaut-floating-in-space-illustration-with-planets-vector.jpg" alt="astronauta flotando">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .</p>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                   
+            </section>
+            <section id="fondo_box">
+                <h2>Imagen Fondo</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a href="https://www.nasa.gov/"target= "_blank"><img id="enlace-img" src="planeta%20(1).png"></a>
+            </section>
+            <section class="img_filter">
+                
+                <h2>Imagen Filtros</h2>
+                
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <img src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-gray" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-sepia" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-brillo" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-contraste" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-blur" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-inverso" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-saturacion" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-opacidad" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-sombra" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img id="filtro-huerotate" src="planeta.avif" alt="planeta" type="imagen/jpg">
+                <img class="filtros" src="planeta.avif" alt="planeta" type="imagen/jpg">
+               
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.facebook.com/profile.php?id=100009175437766"> <img src="facebook.png"></a>
+            <a href="https://www.instagram.com/hady.fri/"> <img src="instagram.png"></a>
+            <a href="https://web.whatsapp.com/"> <img src="whatsapp.png"></a>
+        </footer>
+        <footer>
+            <h6>Elaborado por Frida Haday Quiroz Huerta</h6>
+        </footer>
+    </body>
+    
+</html>
